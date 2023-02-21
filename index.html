@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<h1>PokeDex</h1>
+		<style>
+			body {
+				background: rgb(0, 132, 255);
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				font-family: 'Lato';
+				margin: 0;
+			}
+
+		</style>
+	</head>
+	<body >
+		<main background-color: rgba(0, 0, 0, .1);>
+			<div class="form-floating">
+				<label for="address" class="form-label"></label>
+                <input type="text" class="form-control" id="address" placeholder="Pokemon Name or ID" required>
+				<button class="searchButton" type="submit">Send</button>
+			</div>
+			
+			<div>
+				<p>ID:</p>
+				<p>Height:</p>
+				<p>Weight:</p>
+				<p>Type:</p>
+		    </div>
+
+			<div>
+				<p>Pokemon not found...</p>
+			</div>
+		</main>
+
+	</body>
+	<footer>
+		<p class="mt-5 mb-3 text-muted">&copy; 2023</p>
+	</footer>
+</html>
