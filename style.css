@@ -1,9 +1,0 @@
-body {
-		background: rgb(0, 132, 255);
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		font-family: 'Lato';
-		margin: 0;
-	}

@@ -1,0 +1,61 @@
+body {
+		background-color: rgb(0, 153, 255);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column
+		
+	}
+
+	.titulo{
+		font-family: 'Helvetica';
+		color:orange;
+		text-align: center;
+	}
+	
+	.form-control{
+		text-align: left;
+		font-weight: normal;
+		color:white;
+		width: 400px; 
+		height: min-content; 
+		padding: 10px 3px 10px 3px;
+	}
+
+	.searchButton {
+		width: 50px;
+		background-color: #4682B4;
+		border:1px solid #4682B4;
+		font-weight: normal;
+		color: white;
+		padding: 10px 3px 10px 3px; 
+		height: min-content; 
+	}
+	
+	.descripcion{
+		order: 1;
+		text-align: black;
+ 		position: relative left;
+		background-color: white;
+		font-weight: bold;
+		width: 200px; 
+		margin: 35px;
+		padding: 20px;
+	}
+
+	.encontrar{
+		order:2;
+  		background-color: rgb(0, 153, 255);  
+		margin: 15px; 
+		padding: 10px;
+		font-weight: bold;
+		color:red;
+	}
+
+	.footer{
+		width: 200px; 
+		height: 160x; 
+		margin: 15px; 
+		padding: 10px;
+	}
+	

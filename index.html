@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
+	
 	<head>
 		<meta charset="utf-8">
 		<title>Pokemon</title>
-		<h1>PokeDex</h1>
+		<link rel="stylesheet" href="styles.css">
+		<h1 class="titulo">PokeDex</h1>
 	</head>
-	<body >
-		<main background-color: rgba(0, 0, 0, .1);>
-			<div class="form-floating">
-				<label for="address" class="form-label"></label>
-                <input type="text" class="form-control" id="address" placeholder="Pokemon Name or ID" required>
+
+	<body>
+		<main>
+			<div>
+				<label for="nombre" class="form-label"></label>
+                <input type="text" class="form-control" id="nombre" placeholder="Pokemon Name or ID" required>
 				<button class="searchButton" type="submit">Send</button>
 			</div>
 			
-			<div>
+			<div class="descripcion">
 				<p>ID:</p>
 				<p>Height:</p>
 				<p>Weight:</p>
 				<p>Type:</p>
-		    </div>
-
-			<div>
-				<p>Pokemon not found...</p>
+			</div>
+			
+			<div class="encontrar">
+			<h2>Pokemon not found...</h2>
 			</div>
 		</main>
 
 	</body>
+
 	<footer>
-		<p class="mt-5 mb-3 text-muted">&copy; 2023</p>
+		<p>&copy; 2023</p>
 	</footer>
+
 </html>
